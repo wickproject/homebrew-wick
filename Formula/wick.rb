@@ -7,7 +7,7 @@ class Wick < Formula
   on_macos do
     on_arm do
       url "https://github.com/wickproject/wick/releases/download/v0.4.0/wick-0.4.0-darwin-arm64.tar.gz"
-      sha256 "75e9a6321a520e8a62bde134287afef7e1f8d5182a947ebd8a8eecf129e8d30f"
+      sha256 "b3c5d3a2fb8960aa92730ef7e8826e06c4bb14f040f5d4b515549ef46dc306c4"
     end
   end
 
