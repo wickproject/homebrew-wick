@@ -4,6 +4,8 @@ class Wick < Formula
   version "0.4.0"
   license "MIT"
 
+  depends_on "yt-dlp" => :recommended
+
   on_macos do
     on_arm do
       url "https://github.com/wickproject/wick/releases/download/v0.4.0/wick-0.4.0-darwin-arm64.tar.gz"
@@ -19,6 +21,9 @@ class Wick < Formula
     <<~EOS
       To configure Wick for your AI coding tools, run:
         wick setup
+
+      For media downloads (wick download), yt-dlp is recommended:
+        brew install yt-dlp
 
       Documentation: https://getwick.dev/docs.html
     EOS
