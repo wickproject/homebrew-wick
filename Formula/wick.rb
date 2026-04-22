@@ -1,15 +1,15 @@
 class Wick < Formula
   desc "Browser-grade web access for AI agents"
   homepage "https://getwick.dev"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   depends_on "yt-dlp" => :recommended
 
   on_macos do
     on_arm do
-      url "https://github.com/wickproject/wick/releases/download/v0.9.0/wick-darwin-arm64.tar.gz"
-      sha256 "f17661b4800dda7f3f05a020a4b832b08a7a04762cc30dd0aea95e16aa271a37"
+      url "https://github.com/wickproject/wick/releases/download/v0.9.1/wick-darwin-arm64.tar.gz"
+      sha256 "7618186ea87d3eb08b96a56ef8c5fda04d0b0fafe634b09715ac652d1f8c2e30"
     end
   end
 
